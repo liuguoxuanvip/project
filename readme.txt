@@ -39,3 +39,11 @@ git clone 【地址】
 
 
 ssh-keygen -t rsa -C "123635530@qq.com" 生成公钥和私钥
+冲突的时候先pull 再push （因为服务器版本可能比本地的版本高）
+冲突的时候 q是退出命令模式  w是保存  ：wp先保存后退出
+
+##快捷方式
+git remote add origin git@github.com:liuguoxuanvip/project.git
+git push origin -u master
+加上以上两句之后，就可以用下面的简写方式来上传下载
+git push 或者 git pull  后面不需要加地址，也不需要加origin
